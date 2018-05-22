@@ -1,0 +1,119 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: rgba(255, 55, 55, 1);
+}
+
+a:hover {
+  font-style: italic;
+}
+
+p {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+body {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  background-color: rgb(255, 255, 255);
+  color: #555;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 1em;
+  color: #333;
+  font-weight: 400;
+}
+
+ol {
+  list-style-position: inside;
+  /* padding-left: 10px; */
+}
+
+ul {
+  padding-left: 1.2em;
+}
+
+#header {
+  width: 100%;
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 20px 10px;
+  margin-bottom: 1em;
+}
+
+#header p {
+  max-width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#header h1 {
+  text-align: center;
+  font-weight: 100;
+}
+
+.p1-container {
+  display: table;
+  /* Make the container element behave like a table */
+  width: 100%;
+  /* Set full-width to expand the whole page */
+}
+
+.p1 {
+  width: 33%;
+  height: 80%;
+  border: none;
+  display: table-cell;
+  /* Make elements inside the container behave like table cells */
+}
+
+.contents {
+  max-width: 50em;
+  /* background-color: rgb(189, 211, 255);
+  border: 1px solid rgb(50, 50, 50);
+  border-radius: 3px; */
+  padding: 1em 25px;
+  margin: 15px auto;
+  line-height: 25px;
+  background: #eee;
+  border-left: 2px solid #69c;
+}
+
+.contents img {
+  display: inline-block;
+  height: 150px;
+  width: auto;
+  float: right;
+}
+
+#footer {
+  width: 100%;
+  margin-top: 3em;
+  line-height: 5em;
+  height: 5em;
+  background-color: white;
+  border-top: 3px solid #333;
+  text-align: center;
+}
+
+#footer p, img {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+#footer img {
+  margin-left: 10%;
+  height: 3em;
+}
