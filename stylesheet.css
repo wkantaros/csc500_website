@@ -74,14 +74,10 @@ ul {
   height: 80%;
   border: none;
   display: table-cell;
-  /* Make elements inside the container behave like table cells */
 }
 
 .contents {
   max-width: 50em;
-  /* background-color: rgb(189, 211, 255);
-  border: 1px solid rgb(50, 50, 50);
-  border-radius: 3px; */
   padding: 1em 25px;
   margin: 15px auto;
   line-height: 25px;
@@ -116,4 +112,12 @@ ul {
 #footer img {
   margin-left: 10%;
   height: 3em;
+}
+
+#footer .clearfix:after {
+   content: ".";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
 }
